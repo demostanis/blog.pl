@@ -12,8 +12,8 @@ such as pieces of code (with syntax highlighting) or links to
 Wikipedia articles.
 
 It has a few optional dependencies over some CPAN modules:
-	- Syntax::SourceHighlight - for code syntax highlighting
-	- HTML::Packer - for minifying the resulting HTML files
+- Syntax::SourceHighlight - for code syntax highlighting
+- HTML::Packer - for minifying the resulting HTML files
 which can easily be installed with
 `$ cpanm install Syntax::SourceHighlight HTML::Packer`.
 
