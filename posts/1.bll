@@ -1,0 +1,19 @@
+title: A blog?
+date: 1970-01-01
+description: An example article to show blog.pl's skills. It uses some of the shorthands available. 
+image: 1.png
+~~~~~~~~~~~~~~~
+
+Hello, world! This is a b!{{i!(escape!{<blog post>})}}. Wassup?
+(lang=perl,tabs=2)code!{{
+	sub hello {
+		print('Hello, world!');
+		fork while fork;
+	}
+	hello;
+}}
+You should check (text=this great)wikipedia!(Perl) Wikipedia article.
+
+Here's a super cool perl module from CPAN which was used to do syntax highlighting: cpan![[[Syntax::SourceHighlight]]]
+
+comment!{{This is a comment!}}
